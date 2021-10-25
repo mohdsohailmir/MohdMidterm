@@ -1,0 +1,118 @@
+
+* /* It will apply to all the elements of html*/
+{
+	margin:0;
+	padding:0;
+}
+@font-face{
+	src:url("font/OpenSans-Bold.ttf");
+	font-family:open-sans;
+}
+
+body{
+	width:100%;
+	background-color:#ffe5b5;
+	margin:auto;
+}
+header{
+	background:red;
+	
+}
+
+
+nav{
+	background:#bbf;
+	height:50px;
+}
+nav ul li{
+	float:left;
+	list-style:none;
+}
+nav ul li a{
+	display:block;
+	width:150px;
+	height:50px;
+	color:#000000;
+	text-decoration:none;
+	line-height:50px;
+	border-right:1px solid #000;
+	text-align:center;
+}
+nav ul li a:hover{
+	background:red;
+}
+section{
+	width:100%;
+    background-color: white;
+}
+aside{
+	width:20%;
+	height:200px;
+	background:white;
+	float:left;
+}
+article{
+	width:80%;
+	height:100px;
+	background-color: transparent;
+	float:right;
+}
+section::after{
+	content:"";
+	display:table;
+	clear:both;
+}
+
+#transaction
+{
+    
+    background-color:
+        black;width:50%;
+    height: 40px;
+    margin-left: 70px;
+    margin-top: 70px;
+    text-align: left;
+    padding:10px ;
+    border: 1px black;
+    border-radius: 35px;
+}
+
+footer
+{
+    display: block;
+	background-color:red;
+    width: 100%;   
+    position: fixed;
+}
+
+#leftbox {
+                float:left; 
+                background:Red;
+                width:25%;
+                
+            }
+            #middlebox{
+                float:left; 
+                
+                width:25%; 
+                font-family: cursive;
+                font-size: 22px;
+                
+            }
+            #rightbox{
+                float:left;
+                
+                width:25%;
+                 font-family: cursive;
+                font-size: 22px;
+               
+            }
+
+  #lastbox{
+                float:right;
+                
+                 width:25%;
+                 font-family: cursive;
+                font-size: 22px;
+               
+            }
